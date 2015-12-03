@@ -24,8 +24,5 @@
 			<attribute name="optional" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="lib/pd4ml.jar"/>
-	<classpathentry kind="lib" path="lib/iTrusCertAPI_2.9.2_jdk15.jar"/>
-	<classpathentry kind="lib" path="lib/self-service-domain-ws-3.0.1-SNAPSHOT.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
