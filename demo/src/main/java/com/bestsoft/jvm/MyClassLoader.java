@@ -22,6 +22,7 @@ public class MyClassLoader extends ClassLoader {
 			FileInputStream in = new FileInputStream(filePath);
 			buf = new byte[in.available()];
 			in.read(buf);
+			in.close();
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
